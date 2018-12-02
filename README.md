@@ -1,9 +1,9 @@
 # SrcSrvQuery
 PHP Source Server Query
 
-## <src>[https://github.com/isteinbrook/SrcSrvQuery/tree/master/src] breakdown
-This is a breakdown of the files found in <src>[https://github.com/isteinbrook/SrcSrvQuery/tree/master/src].
-### query.php
+## [src](https://github.com/isteinbrook/SrcSrvQuery/tree/master/src) breakdown
+This is a breakdown of the files found in [src](https://github.com/isteinbrook/SrcSrvQuery/tree/master/src).
+### [query.php](https://github.com/isteinbrook/SrcSrvQuery/blob/master/src/query.php)
 Create a php file that will act as your query file, this will query and interpret the data and returned usable outputs, the src files use named the file 'query.php`
 
 ```
@@ -40,7 +40,7 @@ Create a php file that will act as your query file, this will query and interpre
 ?>
 ```
 
-### Intilize Session
+### [Intilize Session](https://github.com/isteinbrook/SrcSrvQuery/blob/master/src/servers.php)
 On the page where your output is going to be displayed do the following:
 
 Intilize server
