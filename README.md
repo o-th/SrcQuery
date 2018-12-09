@@ -4,7 +4,7 @@ PHP Source Server Query
 ## [src](https://github.com/isteinbrook/SrcSrvQuery/tree/master/src) breakdown
 This is a breakdown of the files found in [src](https://github.com/isteinbrook/SrcSrvQuery/tree/master/src).
 ### [query.php](https://github.com/isteinbrook/SrcSrvQuery/blob/master/src/query.php)
-Create a php file that will act as your query file, this will query and interpret the data and returned usable outputs, the src files use named the file 'query.php`
+Create a php file that will act as your query file, this will query and interpret the data and returned usable outputs, the src files use have named this file 'query.php`
 
 ```
 <?php
@@ -53,33 +53,37 @@ Intilize server
 ```
 
 ### outputs/functions
+`<?php echo function;?>`
+example:
+`<?php echo $server['map'];?>`
+would echo the map being played on my server.
 
 #### Name
-`<?php echo $server['name'] ?>`
+`$server['name']`
 
 #### Map
-`<?php echo $server['map'] ?>`
+`$server['map']`
 
 #### Game
-`<?php echo $server['game'] ?>`
+`$server['game']`
 
 #### Description
-`<?php echo $server['description'] ?>`
+`$server['description']`
 
 #### Players
-`<?php echo $server['players']  ?>`
+`$server['players']`
 
 #### Playersmax
-`<?php echo $server['playersmax'] ?>`
+`$server['playersmax']`
 
 #### Bots
-`<?php echo $server['bots'] ?>`
+`$server['bots']`
 
 #### Dedicated
-`<?php echo $server['dedicated'] ?>`
+`$server['dedicated']`
 
 #### OS
-`<?php echo $server['os'] ?>`
+`$server['os']`
 
 ### Multiple Servers?
 Intilize each server then use functions, to match the correct server outputs to the correct intilized session make sure outputs are preceeded by the session.
