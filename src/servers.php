@@ -2,7 +2,7 @@
 <head></head>
 <body>
 <?php
-	$ip = "162.248.88.42";
+  $ip = "162.248.88.42";
   $port = "27015";
   include 'query.php';  
 ?>
@@ -37,7 +37,7 @@ Name:
 <br><br>
 
 <?php
-	$ip = "74.91.120.57";
+  $ip = "74.91.120.57";
   $port = "27015";
   include 'query.php';  
 ?>
