@@ -113,3 +113,14 @@ Intilize server
 
 outputs
 `<?php echo $server['name'] ?>`
+
+### Offline and Online Status
+This can be accomplished by using a variable that only returns a zero output when the server has no response. I.E. playersmax. 
+Example:
+```
+<?php if($server['playersmax'] == 0 ): ?>
+SERVER OFFLINE
+<?php else: ?>
+SERVER ONLINE
+<?php endif; ?>
+```
