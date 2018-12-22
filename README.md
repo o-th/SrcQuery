@@ -1,4 +1,4 @@
-# SrcSrvQuery
+# SrcQuery
 PHP Source Server Query
 
 ## [src](https://github.com/isteinbrook/SrcSrvQuery/tree/master/src) breakdown
