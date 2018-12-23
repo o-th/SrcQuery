@@ -88,7 +88,7 @@ would echo the map being played on my server.
 ### Multiple Servers?
 To use any outputs/functions specific to each server intilize the server then use the outputs/functions.
 
-basicly:
+basically:
 srv1-intilize
 srv1-outputs
 
