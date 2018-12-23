@@ -86,7 +86,14 @@ would echo the map being played on my server.
 `$server['os']`
 
 ### Multiple Servers?
-Intilize each server then use functions, to match the correct server outputs to the correct intilized session make sure outputs are preceeded by the session.
+To use any outputs/functions specific to each server intilize the server then use the outputs/functions.
+
+basicly:
+srv1-intilize
+srv1-outputs
+
+srv2-intilize
+srv1-outputs
 
 srv1
 Intilize server
